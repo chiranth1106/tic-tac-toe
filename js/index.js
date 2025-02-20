@@ -41,7 +41,7 @@ boxes.forEach(box => {
         }
         box.disabled = true;
         count++;
-        console.log(count);
+        // console.log(count);
 
         let isWinner = checkWinner();
 
